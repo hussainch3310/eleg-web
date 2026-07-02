@@ -136,7 +136,7 @@ const Home = () => {
               Join hundreds of forward-thinking companies building their future with us.
             </p>
             <Link to="/contact" className="relative z-10 inline-flex items-center justify-center px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full font-bold text-lg transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(16,185,129,0.3)]">
-              Get Started Today
+              Get Started Today 1
             </Link>
           </motion.div>
         </div>
