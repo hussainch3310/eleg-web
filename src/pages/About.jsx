@@ -13,14 +13,14 @@ const About = () => {
       {/* Header */}
       <section className="py-24 bg-slate-900 border-b border-slate-800 text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
             About Us
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -49,7 +49,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-4 text-cyan-400">Our Vision</h2>
+            <h2 className="text-3xl font-bold mb-4 text-emerald-400">Our Vision</h2>
             <p className="text-slate-300 leading-relaxed">
               To become the global standard for web excellence. We envision a digital landscape where every application is not only functional but also a joy to use. We constantly innovate to stay ahead of the curve in a rapidly evolving tech world.
             </p>
@@ -64,7 +64,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-4">Meet the Team</h2>
             <p className="text-slate-400">The brilliant minds behind Elegance.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, idx) => (
               <motion.div
@@ -75,9 +75,9 @@ const About = () => {
                 transition={{ delay: idx * 0.1 }}
                 className="group relative overflow-hidden rounded-2xl bg-slate-800 border border-slate-700"
               >
-                <img 
-                  src={member.img} 
-                  alt={member.name} 
+                <img
+                  src={member.img}
+                  alt={member.name}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="p-6">
